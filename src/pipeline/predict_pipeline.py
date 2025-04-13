@@ -12,7 +12,8 @@ from src.utils.main_utils import MainUtils
 
 from dataclasses import dataclass
         
-#create        
+#create
+#create dataclass
 @dataclass
 class PredictionPipelineConfig:
     prediction_output_dirname: str = "predictions"
